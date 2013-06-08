@@ -16,7 +16,7 @@ tracks:
     ros_distro: groovy
     vcs_type: git
     vcs_uri: git@github.com:PointCloudLibrary/pcl.git
-    version: :{auto}
+    version: :{ask}
   hydro:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
